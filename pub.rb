@@ -11,5 +11,8 @@ class Pub
     @till += drink.price
   end
 
+  def check_age?(customer)
+    customer.age >= 18
+  end
 
 end
